@@ -12,6 +12,11 @@ const Nav = () => {
                         Home
                     </NavLink>
                     </li>
+                    <li>
+                    <NavLink to="/contact">
+                        Contact Me
+                    </NavLink>
+                    </li>
                 </ul>
             </nav>
 
