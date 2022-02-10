@@ -1,0 +1,10 @@
+.nav {
+    background-color: #862F46;
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    width: auto;
+}
