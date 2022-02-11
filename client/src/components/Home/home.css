@@ -28,6 +28,7 @@
     background-image: url('../../assets/dog.png');
     background-size: cover;
     background-position: center;
+    box-shadow: 0 0 10px rgba(134, 47, 70, 1);
 }
 
 .sections {
