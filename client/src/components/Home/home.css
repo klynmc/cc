@@ -3,19 +3,38 @@
     flex-direction: column;
     align-items: center;
     margin: auto;
-    padding: 15px;
+    padding: 30px;
     color: white;
 }
 
 .homepage h1 {
     color: white;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    font-size: 60px;
+    text-shadow: 0 0 5px rgba(134, 47, 70, 0.5);
+}
+
+.homepage h2 {
+    font-style: italic;
+    font-size: 45px;
+    text-shadow: 0 0 5px rgba(134, 47, 70, 0.5);
+}
+
+.header {
+    /* margin-top: 100px; */
+    height: 100%;
+    width: 60%;
+    padding: 150px;
+    text-align: center;
+    background-image: url('../../assets/dog.png');
+    background-size: cover;
+    background-position: center;
 }
 
 .sections {
     display: flex;
     flex-direction: row;
     align-items: center;
+    text-align: center;
     padding: 10px;
 }
 
@@ -26,4 +45,27 @@
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(134, 47, 70, 1);
     background-color: #862F46;
+}
+
+.about {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    text-shadow: 0 0 5px rgba(134, 47, 70, 0.5);
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+    /* align-items: flex-start; */
+    /* background-attachment: fixed; */
+    /* background-position: 80%; */
+}
+
+.about h2 {
+    padding: 10px;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: bold;
+    color: #862F46;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
 }
