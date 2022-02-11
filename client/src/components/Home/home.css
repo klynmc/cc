@@ -1,15 +1,27 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 15px;
+}
+
 .homepage h1 {
     color: white;
 }
 
-a { 
-    text-decoration: none; 
-  }
-  
-  a:active { 
-    text-decoration: none; 
-  }
-  
-  a:focus { 
-    text-decoration: none; 
-  }
+.sections {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.section1, .section2, .section3 {
+    margin: 20px;
+    border: 1px solid #862F46;
+    padding: 105px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(134, 47, 70, 1);
+    background-color: #EAE8FF;
+}

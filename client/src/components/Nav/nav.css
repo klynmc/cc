@@ -1,10 +1,28 @@
 .nav {
     background-color: #862F46;
-    padding: 15px 15px;
+    padding: 30px 30px;
+    margin: 0;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    flex-direction: row;
     flex-wrap: wrap;
-    position: sticky;
     width: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+img {
+    height: 50px;
+    width: 200px;
+}
+
+.nav ul, img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.nav ul li {
+    padding: 5px;
 }
