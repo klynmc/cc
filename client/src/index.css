@@ -9,7 +9,7 @@ body {
   font-family: 'Belleza';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #E56B6F;
+  background-color: /* #E56B6F */ #ffcbc4;
 }
 
 code {
@@ -19,18 +19,18 @@ code {
 
 a { 
   text-decoration: none; 
-  color:black; 
+  color:white; 
 }
 a:hover { 
   text-decoration: none; 
-  color: #862F46; 
+  color: #ffcbc4; 
   /* font-style: italic;
   text-shadow: 0 0 5px rgba(229, 107, 111, 1); */
   /* text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
 }
 a:focus { 
   text-decoration: none; 
-  color:#862F46; 
+  color:#ffcbc4; 
 }
 a:active { 
   text-decoration: none; 

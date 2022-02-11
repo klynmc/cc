@@ -4,10 +4,12 @@
     align-items: center;
     margin: auto;
     padding: 15px;
+    color: white;
 }
 
 .homepage h1 {
     color: white;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .sections {
@@ -23,5 +25,5 @@
     padding: 105px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(134, 47, 70, 1);
-    background-color: #EAE8FF;
+    background-color: #862F46;
 }

@@ -8,16 +8,14 @@ const Home = () => {
             <h1>Home Page</h1>
             <div className="sections">
                 <section className="section1">
-                    About Me
-                    {/* <NavLink>
+                    <NavLink to="/about-me">
                         About Me
-                    </NavLink> */}
+                    </NavLink>
                 </section>
                 <section className="section2">
-                    Pet Prices
-                    {/* <NavLink>
+                    <NavLink to="/prices">
                         Pet Prices
-                    </NavLink> */}
+                    </NavLink>
                 </section>
                 <section className="section3">
                     <NavLink to="/contact">
