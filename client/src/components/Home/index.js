@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './home.css'
+//import characters from '../../assets/14.jpeg';
 
 const Home = () => {
     return (
@@ -13,17 +14,17 @@ const Home = () => {
             <br />
             </div>
             <div className="about">
-            <h2>
-                Does your pet suffer from separation 
-                anxiety? Always come home from
-                the kennel sick and stressed? Do you
-                worry if they are given the proper love and 
-                attention that they need?
-                Creature Comforts was designed to provide
-                a better sense of security to both pets 
-                and owners by allowing your pet to stay
-                in the comfort of their own home while you're away.
-            </h2>
+                <h2>
+                    Does your pet suffer from separation 
+                    anxiety? Always come home from
+                    the kennel sick and stressed? Do you
+                    worry if they are given the proper love and 
+                    attention that they need?
+                    Creature Comforts was designed to provide
+                    a better sense of security to both pets 
+                    and owners by allowing your pet to stay
+                    in the comfort of their own home while you're away.
+                </h2>
             </div>
             <div className="sections">
                 <section className="section1">

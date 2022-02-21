@@ -4,9 +4,70 @@
     align-items: center;
     margin: auto;
     padding: 15px;
+   /*  width: 100%; */
 }
 
 .contact h1 {
     color: white;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.contact-form {
+    margin: 30px 0 30px 0;
+    display: flex;
+    flex-direction: column;
+    padding: 105px;
+    color: #862F46;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    border: 1px solid #862F46;
+    box-shadow: 0 0 10px rgba(134, 47, 70, 1);
+    border-radius: 10px;
+    background-image: url('../../assets/cat-paw.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-form h2 {
+    color: white;
+    text-shadow: 0 0 5px rgba(134, 47, 70, 0.5);
+    font-size: 35px;
+}
+
+.contact-form h3{
+    text-align: center;
+    font-size: 23px;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+label {
+    padding: 5px;
+    font-size: 20px;
+    /* color: #ffcbc4;
+    text-shadow: 0 0 5px rgba(134, 47, 70, 0.5); */
+}
+
+.btns {
+    text-align: center;
+}
+
+.btn {
+    align-items: center;
+    font-size: 13px;
+    color: #862F46;
+    background-color: #ffcbc4;
+    border: 1px solid #862F46;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 16px 16px 1px 16px;
+}
+
+.btn:hover {
+    background-color: #862F46;
+    border: 1px solid #ffcbc4;
+    color: #ffcbc4;
 }

@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     margin: auto;
     padding: 30px;
     color: white;
@@ -25,6 +26,7 @@
     width: 60%;
     padding: 150px;
     text-align: center;
+    align-items: center;
     background-image: url('../../assets/dog.png');
     background-size: cover;
     background-position: center;
@@ -40,11 +42,15 @@
 }
 
 .section1, .section2, .section3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     margin: 20px;
     border: 1px solid #862F46;
     padding: 105px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(134, 47, 70, 1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* background-color: #7E9181;  #e3e6e0*/
     background-color: #862F46;
 }
 
@@ -61,6 +67,11 @@
     /* background-attachment: fixed; */
     /* background-position: 80%; */
 }
+
+/* .about img {
+    height: 200px;
+    width: 150px;
+} */
 
 .about h2 {
     padding: 10px;
