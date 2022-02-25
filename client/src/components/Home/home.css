@@ -43,11 +43,14 @@
     margin: 60px;
     width: 50%;
     height: 50%;
-    text-shadow: 0 0 5px rgba(134, 47, 70, 0.5);
-    padding: 60px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    padding: 80px;
     border-radius: 10px;
     border: 1px solid #862F46;
-    box-shadow: #862F46 3px 3px 3px 3px;
+    box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 3px 3px;
+    background-image: url('../../assets/19.png');
+    background-size: cover;
+    background-position: center;
     /* display: flex;
     flex-wrap: wrap;
     justify-content: center; */
@@ -72,6 +75,7 @@
     font-style: normal;
     font-size: 30px;
     font-weight: bold;
+    /* color: #862F46; */
    /*  color: lightcoral; */
     /* text-shadow: 0 0 5px rgba(255, 255, 255, 0.5); */
     /* color: #862F46;
