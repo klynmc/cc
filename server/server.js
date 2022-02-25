@@ -1,10 +1,10 @@
-const express = require('express');
-const mongoose = require ('mongoose');
-const bodyParser = require('body-parser');
-const cors = require('cors');
+import express from 'express';
+import mongoose from 'mongoose';
+import bodyParser from 'body-parser';
+import cors from 'cors';
 
-/* const path = require('path')
-const __dirname = path.resolve(); */
+import path from 'path'
+const __dirname = path.resolve();
 
 const PORT = process.env.PORT || 3001;
 
@@ -15,6 +15,14 @@ app.use(bodyParser.json({ limit: "30mb", extended: true}))
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true}))
 app.use(cors());
 app.use(express.json())
+
+if(process.env.NODE_ENV === 'production') {
+    app.use(express.static(path.join(__dirname, './client/build')));
+};
+
+app.get('/', (req, res) => {
+    res.sendFile(path.resolve(__dirname, './client/build/index.html'));
+});
 
 const CONNECTION_URL = 'mongodb+srv://lmckay:lmckay123@cluster0.qzesj.mongodb.net/cc?retryWrites=true&w=majority'
 
