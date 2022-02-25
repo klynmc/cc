@@ -4,6 +4,10 @@
   "description": "",
   "main": "server.js",
   "dependencies": {},
+  "engines": {
+    "npm": "8.3.1",
+    "node": "v17.4.0"
+  },
   "devDependencies": {},
   "scripts": {
     "start": "node server/server.js",
