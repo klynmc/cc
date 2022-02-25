@@ -6,15 +6,18 @@ import './home.css'
 const Home = () => {
     return (
         <div className="homepage">
+
             <div className="header">
-            <h1>Creature <br /> C🐾mforts</h1>
-            <h2>
-                There's no place like home
-            </h2>
-            <br />
-            </div>
-            <div className="about">
+                <h1>Creature <br /> C🐾mforts</h1>
                 <h2>
+                There's no place like home
+                </h2>
+                <br />
+            </div>
+
+            <div className="about">
+                <h2>Our Mission</h2>
+                <h3>
                     Does your pet suffer from separation 
                     anxiety? Always come home from
                     the kennel sick and stressed? Do you
@@ -24,24 +27,23 @@ const Home = () => {
                     a better sense of security to both pets 
                     and owners by allowing your pet to stay
                     in the comfort of their own home while you're away.
-                </h2>
+                </h3>
             </div>
-            <div className="sections">
-                <section className="section1">
-                    <NavLink to="/about-me">
-                        About Me
-                    </NavLink>
-                </section>
-                <section className="section2">
-                    <NavLink to="/prices">
-                        Pet Prices
-                    </NavLink>
-                </section>
-                <section className="section3">
-                    <NavLink to="/contact">
-                        Contact Me
-                    </NavLink>
-                </section>
+
+            <div className="links">
+                <h2>Interested or have a question?</h2>
+                <div className="sections">
+                    <section className="section2">
+                        <NavLink to="/prices">
+                            Pet Prices
+                        </NavLink>
+                    </section>
+                    <section className="section3">
+                        <NavLink to="/contact">
+                            Contact Me
+                        </NavLink>
+                    </section>
+                </div>
             </div>
         </div>
     )

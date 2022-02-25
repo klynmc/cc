@@ -15,15 +15,20 @@ const Nav = () => {
             {/* Home */}
             </NavLink>
             </header>
-            {/* <nav>
+            <nav>
                 <ul>
                     <li>
                     <NavLink to="/contact">
                         Contact Me
                     </NavLink>
                     </li>
+                    <li>
+                    <NavLink to="/prices">
+                        Pet Prices
+                    </NavLink>
+                    </li>
                 </ul>
-            </nav> */}
+            </nav>
 
         </div>
     )
