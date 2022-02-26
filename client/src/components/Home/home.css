@@ -95,12 +95,12 @@
     flex-direction: row;
     align-items: center;
     margin: 20px;
-    border: 1px solid #862F46;
+    border: 1px solid #d57176;
     padding: 105px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 3px 3px;
     /* background-color: #7E9181;  #e3e6e0*/
-    background-color: #862F46;
+    background-color: #d57176;
 }
 
 .links h2 {

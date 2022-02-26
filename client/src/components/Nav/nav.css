@@ -12,6 +12,11 @@
     width: 100%;
 }
 
+.nav ul li {
+    padding: 60px;
+    font-size: 20px;
+}
+
 img {
     height: 50px;
     width: 200px;

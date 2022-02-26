@@ -18,13 +18,13 @@ const Nav = () => {
             <nav>
                 <ul>
                     <li>
-                    <NavLink to="/contact">
-                        Contact Me
+                    <NavLink to="/prices">
+                        Pet Prices
                     </NavLink>
                     </li>
                     <li>
-                    <NavLink to="/prices">
-                        Pet Prices
+                    <NavLink to="/contact">
+                        Contact Me
                     </NavLink>
                     </li>
                 </ul>

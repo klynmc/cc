@@ -11,7 +11,36 @@
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
+.price h3 {
+    font-style: italic;
+    color: #862F46;
+}
+
 .price img {
     height: 300px;
     width: 600px;
+}
+
+.packages {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    padding: 30px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0 0 5px rgba(134, 47, 70, 0.5);
+}
+
+.packages h3 {
+    font-style: italic;
+    color: white;
+    font-size: 30px;
+    text-shadow: 0 0 5px rgba(134, 47, 70, 0.5);
+}
+
+.packages ul li {
+    list-style: none;
+    border: 2px solid #862F46;
+    background-color: #d57176;
+    padding: 23px;
 }
