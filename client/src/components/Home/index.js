@@ -33,16 +33,16 @@ const Home = () => {
             <div className="links">
                 <h2>Interested or have a question?</h2>
                 <div className="sections">
-                    <section className="section2">
-                        <NavLink to="/prices">
-                            Pet Prices
-                        </NavLink>
-                    </section>
-                    <section className="section3">
-                        <NavLink to="/contact">
-                            Contact Me
-                        </NavLink>
-                    </section>
+                    <NavLink to="/prices">
+                        <div className="section2">
+                        Pet Prices
+                        </div>
+                    </NavLink>
+                    <NavLink to="/contact">
+                        <div className="section3">
+                        Contact Me
+                        </div>
+                    </NavLink>
                 </div>
             </div>
         </div>
