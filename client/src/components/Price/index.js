@@ -11,22 +11,24 @@ function Price() {
             <div className="packages">
                 <ul>
                     <li>
-                        <h3>Basic Needs: $30 per day</h3>
+                        <h3>Basic Needs</h3>
+                        <h4>$30 per day</h4>
                         1-2 pets
                         <br />
                         2-4 hours
                         <br />
-                        *Includes optional: walking, oral medication, for animals in training: practice basic commands
+                        <p>*Includes optional: walking, oral medication, for animals in training: practicing basic commands*</p>
                     </li>
                     <li>
-                        <h3>Slumber party! $45 per day</h3>
+                        <h3>Slumber Party!</h3>
+                        <h4>$45 per day</h4>
                         1-2 pets 
                         <br />
                         4-6 hours
                         <br />
                         Overnight stay
                         <br />
-                        *Includes optional: walking, oral medication, for animals in training: practice basic commands
+                        <p>*Includes optional: +2hr stay, walking, oral medication, for animals in training: practicing basic commands*</p>
                     </li>
                     {/* <li>
                         <h3>Package 3</h3>
@@ -36,7 +38,7 @@ function Price() {
             <div className="contactForm">
                 <h2>Want to schedule or have a question about pricing?</h2> 
                 <NavLink to="/contact">
-                Contact us here!
+                🐾 Contact us here! 🐾
                 </NavLink>
             </div>
             <img 
