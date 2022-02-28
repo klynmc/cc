@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './home.css'
+//import pawPrints from '../../assets/5.png';
 //import characters from '../../assets/14.jpeg';
 
 const Home = () => {
@@ -17,6 +18,10 @@ const Home = () => {
 
             <div className="about">
                 <h2>Our Mission</h2>
+                {/* <img
+                    src={pawPrints}
+                    alt="paw prints"
+                /> */}
                 <h3>
                     Does your pet suffer from separation 
                     anxiety? Always come home from
