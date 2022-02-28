@@ -58,10 +58,9 @@ label {
 .btn {
     align-items: center;
     font-size: 13px;
-    color: #862F46;
-    background-color: #d57176;
+    color: #d57176;
+    background-color: #ffcbc4;
     border: 1px solid #862F46;
-    text-shadow: 0 0 2px #ffcbc4;
     border-radius: 2px;
     padding: 10px;
     margin: 16px 16px 1px 16px;
