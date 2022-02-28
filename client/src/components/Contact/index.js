@@ -1,5 +1,5 @@
-import React, {useState} from 'react'
-import { useDispatch } from 'react-redux';
+import React , {useState} from 'react'
+//import { useDispatch } from 'react-redux';
 import './contact.css'
 
 function Contact() {
@@ -21,7 +21,7 @@ function Contact() {
         <div className="contact">
             {/* <h1>Contact Me</h1> */}
             <form className="contact-form" /* onSubmit={handleSubmit} */>
-                <h2>Have a question or want to check availablitiy?</h2>
+                <h2>Have a question, want to schedule, or check availablitiy?</h2>
                 <label htmlFor="name" className="name"> Your Full Name:</label>
                 <input htmlFor="name" className="name" placeholder="Jane Doe" /* value={userData.name} onChange={(e) => setUserData({ ...userData, name: e.target.value })} */></input>
 

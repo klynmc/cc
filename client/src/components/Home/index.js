@@ -27,7 +27,8 @@ const Home = () => {
                     anxiety? Always come home from
                     the kennel sick and stressed? Do you
                     worry if they are given the proper love and 
-                    attention that they need?
+                    attention that they need while you're gone?
+                    Then you have come to the right place!
                     Creature Comforts was designed to provide
                     a better sense of security to both pets 
                     and owners by allowing your pet to stay
@@ -45,7 +46,7 @@ const Home = () => {
                     </NavLink>
                     <NavLink to="/contact">
                         <div className="section3">
-                        Contact Me
+                        Contact Us
                         </div>
                     </NavLink>
                 </div>

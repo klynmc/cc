@@ -24,7 +24,7 @@ const Nav = () => {
                     </li>
                     <li>
                     <NavLink to="/contact">
-                        Contact Me
+                        Contact Us
                     </NavLink>
                     </li>
                 </ul>

@@ -1,6 +1,7 @@
 import React from 'react'
 import './price.css'
 import characters from '../../assets/14.jpeg';
+import { NavLink } from 'react-router-dom';
 
 function Price() {
     return(
@@ -15,15 +16,28 @@ function Price() {
                         <br />
                         2-4 hours
                         <br />
-                        *Optional: walking, oral medication, for animals in training: practice basic commands
+                        *Includes optional: walking, oral medication, for animals in training: practice basic commands
                     </li>
                     <li>
-                        <h3>Package 2</h3>
+                        <h3>Slumber party! $45 per day</h3>
+                        1-2 pets 
+                        <br />
+                        4-6 hours
+                        <br />
+                        Overnight stay
+                        <br />
+                        *Includes optional: walking, oral medication, for animals in training: practice basic commands
                     </li>
-                    <li>
+                    {/* <li>
                         <h3>Package 3</h3>
-                    </li>
+                    </li> */}
                 </ul>
+            </div>
+            <div className="contactForm">
+                <h2>Want to schedule or have a question about pricing?</h2> 
+                <NavLink to="/contact">
+                Contact us here!
+                </NavLink>
             </div>
             <img 
                 src={characters}
