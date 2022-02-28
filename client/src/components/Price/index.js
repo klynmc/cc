@@ -30,9 +30,15 @@ function Price() {
                         <br />
                         <p>*Includes optional: +2hr stay, walking, oral medication, for animals in training: practicing basic commands*</p>
                     </li>
-                    {/* <li>
-                        <h3>Package 3</h3>
-                    </li> */}
+                    <li>
+                        <h3>'Til the Cows Come Home</h3>
+                        <h4>$50-$75 per day</h4>
+                        Small/Medium sized farms
+                        <br /> 
+                        3-7 hours
+                        <br />
+                        <p>*Contact us for more information on what this package includes*</p>
+                    </li>
                 </ul>
             </div>
             <div className="contactForm">
