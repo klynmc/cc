@@ -1,4 +1,4 @@
-## Creature Comforts
+# Creature Comforts
 
 ## Purpose
 So both owners and pets can have a better sense of comfort and security 
