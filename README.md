@@ -1,7 +1,7 @@
 # Creature Comforts
 
 ## Purpose
-So both owners and pets can have a better sense of comfort and security 
+Creature Comforts was designed to provide a better sense of security to both pets and owners by allowing your pet to stay in the comfort of their own home while you're away 
 
 ## Website 
 https://creaturecomforts.herokuapp.com/
