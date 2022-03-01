@@ -28,7 +28,7 @@ function Price() {
                         <br />
                         Overnight stay
                         <br />
-                        <p>*Includes optional: +2hr stay, walking, oral medication, for animals in training: practicing basic commands*</p>
+                        <p>*Includes optional: walking, oral medication, for animals in training: practicing basic commands*</p>
                     </li>
                     <li>
                         <h3>'Til the Cows Come Home</h3>
