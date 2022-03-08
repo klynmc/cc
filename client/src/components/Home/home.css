@@ -110,6 +110,16 @@
     border: 1px solid #d57176;
 }
 
+/* .section2:hover {
+    background-image: url('../../assets/21.png');
+    background-position: center;
+}
+
+.section3:hover {
+    background-image: url('../../assets/20.png');
+    background-position: center;
+} */
+
 .links h2 {
     font-size: 55px;
 }
