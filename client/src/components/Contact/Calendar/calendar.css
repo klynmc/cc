@@ -1,0 +1,22 @@
+.calendar-div {
+    margin: 30px /* 0 30px 0 */;
+    display: flex;
+    flex-direction: column;
+    padding: 55px;
+    color: #862F46;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    border: 1px solid #862F46;
+    box-shadow: 0 0 10px rgba(134, 47, 70, 1);
+    border-radius: 10px;
+}
+
+.calendar-div h2{
+    color: white;
+    text-shadow: 0 0 5px rgba(134, 47, 70, 0.5);
+    font-size: 35px;
+    text-align: center;
+}
+
+.calendar-div h3 {
+   text-align: center;
+}
